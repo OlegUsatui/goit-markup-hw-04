@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/modern-normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -17,17 +17,30 @@
             <nav class="site-nav">
                     <a class="logo" href=""><span class="logo-header">Web</span>Studio</a>
                     <ul class="nav-menu">
-                <li class="nav-menu-item"><a class="nav-link" href="./index.html">Студия</a></li>
-                <li class="nav-menu-item"><a class="nav-link current" href="#">Портфолио</a></li>
-                <li class="nav-menu-item"><a class="nav-link" href="#contacts">Контакты</a></li>
+                        <li class="nav-menu-item"><a class="nav-link" href="./index.html">Студия</a></li>
+                        <li class="nav-menu-item"><a class="nav-link current" href="#">Портфолио</a></li>
+                        <li class="nav-menu-item"><a class="nav-link" href="#contacts">Контакты</a></li>                    </ul>
+            </nav>
+            <ul class="contact-link">
+                <li class="contact-menu">
+                    <a class="contact-item" href="mailo:info@devstudio.com">
+                        <svg class="link-svg" width="16" height="12">
+                            <use href="./images/icons.svg#email">
+                            </use>
+                        </svg>
+                    info@devstudio.com</a>
+                </li>
+                <li class="contact-menu">
+                    <a class="contact-item" href="tel:+380961111111">
+                        <svg class="link-svg" width="10" height="16">
+                            <use href="./images/icons.svg#phone">
+                            </use>
+                        </svg>
+                       +38 096 111 11 11</a>
+                </li>
             </ul>
-        </nav>
-        <ul class="contact-link">
-            <li class="link-menu"><a class="contact-link-item" href="mailo:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="link-menu"><a class="contact-link-item" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
-    </div>
-</header>
+        </div>
+    </header>
 <main>
         <section class="portfolio-main">
             <div class="portfolio-button container">
@@ -129,14 +142,53 @@
     </main>
     <footer class="footer-main">
         <div class="footer container">
-            <a class="logo" href="./index.html"><span class="logo-header">Web</span><span class="logo-footer">Studio</span></a>
-            <address class="footer-address">
-               <p class="footer-text">г. Киев, пр-т Леси Украинки, 26</p>
-               <ul class="footer-list">
-                    <li class="footer-item"><a class="footer-link" href="mailo:info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="footer-item"><a class="footer-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <div class="footer-first">
+                <a class="logo" href="./index.html"><span class="logo-header">Web</span><span class="logo-footer">Studio</span></a>
+                <address class="footer-address">
+                <p class="footer-text">г. Киев, пр-т Леси Украинки, 26</p>
+                <ul class="footer-list">
+                        <li class="footer-item"><a class="footer-link" href="mailo:info@devstudio.com">info@devstudio.com</a></li>
+                        <li class="footer-item"><a class="footer-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
                 </ul>
-            </address>    
+                </address>  
+            </div>  
+            <div class="footer-second">
+                <h3 class="footer-second-title">присоединяйтесь</h3>
+                <ul class="footer-second-name">
+                    <li class="footer-second-menu">
+                        <a class="footer-second-item" href="#">
+                            <svg class="footer-second-svg">
+                                <use href="./images/icons.svg#instagram">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-second-menu">
+                        <a class="footer-second-item" href="#">
+                            <svg class="footer-second-svg">
+                                <use href="./images/icons.svg#twitter">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-second-menu">
+                        <a class="footer-second-item" href="#">
+                            <svg class="footer-second-svg">
+                                <use href="./images/icons.svg#facebook">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-second-menu">
+                        <a class="footer-second-item" href="#">
+                            <svg class="footer-second-svg">
+                                <use href="./images/icons.svg#linkedin">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>
