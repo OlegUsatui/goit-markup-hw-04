@@ -91,8 +91,7 @@ img {
 
 .header-nav-menu {
     display: flex;
-    padding-top: 17px;
-    padding-bottom: 17px;
+    align-items: center;
 }
   
 .site-nav {
@@ -102,6 +101,7 @@ img {
     letter-spacing: 0.02em;
 
     display: flex;
+    align-items: center;
 }
 
 .nav-menu {
@@ -123,8 +123,8 @@ img {
     line-height: 1.19;
     letter-spacing: 0.03em;
 
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .logo .logo-header {
@@ -137,17 +137,23 @@ img {
 
 .nav-link {
     display: block;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-text)    
 }
 
 .nav-link:hover,
-.nav-linkv:focus {
-    color:  var(--accent-text);
+.nav-link:focus {
+    color: var(--accent-text);
 }
 
-.nav-link.current{
-    color:  var(--accent-text);
+.nav-link.current {
+    color: var(--accent-text);
 }
 
 .contact-link {
@@ -157,8 +163,6 @@ img {
 
 .contact-menu {
     display: inline-flex;
-    padding-top: 15px;
-    padding-bottom: 15px;
     justify-content: center;
     align-items: center;
  }
@@ -187,7 +191,7 @@ img {
     
 .contact-item:hover,
 .contact-item:focus {
-    color:  var(--accent-text);
+    color: var(--accent-text);
 }
 
 .link-svg {
@@ -664,12 +668,12 @@ img {
     background: var(--main-bg-color);
     border: 1px solid var(--border-color-frame);
     box-sizing: border-box;
+    display: flex;
 }
 
-.card-name-item:hover,
-.card-name-item:focus {
-
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+.card-name-link:hover,
+.card-name-link:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .filter-name {
